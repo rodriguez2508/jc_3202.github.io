@@ -1,0 +1,104 @@
+<header id="header" class="_he-20 w3-row w3-col l12 m12 s12">
+  <app-sesion-header></app-sesion-header>
+</header>
+
+<main
+    class="w3-row w3-col l12 m12 s12 animated _he-70 "
+  >
+<section class="w3-row w3-col l12 m12 s12 mb-1 centrar-h">
+
+  <a [routerLink]="['/sesion', 'cargar']"  class="w3-row w3-col l6 m6 s6 btn centrar-h border-bottom border-warning border-4 w3-round-medium  p-3 ml-1 w3-xlarge fw-normal text-uppercase"> 
+
+    <i class="material-icons p-1 w3-xxlarge mt-1">
+      account_box
+ </i> Cargar Perfil
+
+</a> 
+
+  <a [routerLink]="['/sesion', 'crear']"  class="w3-row w3-col l6 m6 s6 btn centrar-h p-3 mr-1 w3-xlarge fw-normal text-uppercase">
+
+    <i class="material-icons  p-1 w3-xxlarge mt-1">
+      person_add
+ </i> Crear Perfil
+
+  </a>
+   
+</section>
+
+<section class="w3-row w3-col l12 m12 s12 _he-ov-y-50 w3-container centrar-h fadeIn">
+
+  <div class=" w3-row w3-col l6 m6 s12 ">
+
+    <form action="/action_page.php" class="was-validated w3-container border border-1 border-dark">
+
+      <div class="w3-row w3-col l12 m11 s11 ">
+        <label for="uname" class="form-label w3-row w3-col l12 m11 s11 ">
+          <i class="material-icons w3-col l2 m2 s2 w3-xlarge mt-1">
+            account_circle
+          </i>
+          <h5 class="w3-col l10 m10 s10">Usuario:</h5>
+        </label>
+        <input
+          type="text"
+          class="form-control"
+          id="uname"
+          placeholder="Enter username"
+          name="uname"
+          required
+        />
+
+        
+        <div class="valid-feedback">Válido.</div>
+        <div class="invalid-feedback">Por favor, rellene el campo.</div>
+
+      </div>
+
+      <div class="w3-row w3-col l12 m11 s11 mb-2">
+        
+        <label for="pwd" class="form-label w3-row w3-col l12 m11 s11 ">
+          <i class="material-icons w3-col l2 m2 s2 w3-xlarge mt-1">
+            vpn_key
+          </i>
+          <h5 class="w3-col l10 m10 s10">Contraseña:</h5>
+        </label>
+        <input
+          type="password"
+          class="form-control"
+          id="pwd"
+          placeholder="Enter password"
+          name="pswd"
+          required
+        />
+        <div class="valid-feedback">Válido.</div>
+        <div class="invalid-feedback">Por favor, rellene el campo.</div>
+      </div>
+
+
+      <div class="w3-container w3-row w3-col l12 m11 s12 w3-section">
+        <a
+          class="btn w3-btn-block w3-deep-orange text-white bg-opacity-50 w3-center"
+          [routerLink]="['/login']"
+          mat-button
+          ><i class="material-icons text-white w3-col l1 m1 s1 w3-right mt-2"
+            >login</i
+          >
+          <h5 class="w3-col l11 m11 s11 w3-left">Entrar</h5></a
+        >
+      </div>
+    </form>
+  </div>
+
+
+</section>
+
+  
+</main>
+
+
+
+
+<footer class=" _he-10 w3-row w3-col l12 m12 s12">
+
+  <app-sesion-footer></app-sesion-footer>
+
+</footer>

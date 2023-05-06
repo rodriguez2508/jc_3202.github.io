@@ -1,0 +1,337 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~bootstrap/';
+@import '~material-icons/';
+@import '~@fortawesome/fontawesome-free/'; 
+@import '~w3-css/3/w3.css';   
+@import '~animate/animate/animate.css';   
+
+
+/*
+Estilos Secundarios ======================================
+==========================================================
+
+*/
+header *{
+    font-size: 100% !important;
+}
+ body{
+      height: 100vh;
+      overflow: hidden;
+      
+  }
+
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #0000;
+    border-top: 18px solid rgba(232, 188, 118, 0.89);
+    position: relative;
+    top: -7px;
+}
+
+ ::-webkit-scrollbar {
+    width: 8px;
+}
+
+ ::-webkit-scrollbar-track {
+    background-color: rgba(255, 166, 0, 0.548);
+}
+
+ ::-webkit-scrollbar-thumb {
+    background-color: rgba(250, 235, 215, 0.48);
+}
+
+._he-100 {
+    height: 100vh;
+    overflow: hidden;
+}
+
+._he-90 {
+    height: 90vh;
+    overflow: hidden;
+}
+
+._he-85 {
+    height: 85vh;
+    overflow: hidden;
+}
+
+._he-80 {
+    height: 80vh;
+    overflow: hidden;
+}
+
+._he-75 {
+    height: 75vh;
+    overflow: hidden;
+}
+
+._he-70 {
+    height: 70vh;
+    overflow: hidden;
+}
+
+._he-65 {
+    height: 65vh;
+    overflow: hidden;
+}
+
+._he-60 {
+    height: 60vh;
+    overflow: hidden;
+}
+
+._he-50 {
+    height: 50vh;
+    overflow: hidden;
+}
+
+._he-40 {
+    height: 40vh;
+    overflow: hidden;
+}
+
+._he-30 {
+    height: 30vh;
+    overflow: hidden;
+}
+
+._he-20 {
+    height: 20vh;
+    overflow: hidden;
+}
+
+._he-10 {
+    height: 10vh;
+    overflow: hidden;
+}
+
+._he-5 {
+    height: 5vh;
+    overflow: hidden;
+}
+
+._he-ov-y-95 {
+    height: 95vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+._he-ov-y-90 {
+    height: 90vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+._he-ov-y-80 {
+    height: 80vh;
+    overflow-y: auto;
+}
+
+._he-ov-y-85 {
+    height: 85vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+._he-ov-y-75 {
+    height: 75vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    overflow-x: hidden;
+}
+
+._he-ov-y-70 {
+    height: 70vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+._he-ov-y-60 {
+    height: 60vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+._he-ov-y-50 {
+    height: 50vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+._he-ov-y-40 {
+    height: 40vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+._he-ov-y-30 {
+    max-height: 30vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+._he-ov-y-20 {
+    max-height: 20vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+._he-ov-y-10 {
+    max-height: 10vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+._he-ov-y-5 {
+    max-height: 5vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.transition-2 {
+    transition: all 2s;
+}
+
+.transition-1 {
+    transition: all 1s;
+}
+
+.transition-0 {
+    transition: all 0s;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.centrar-h {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.centrar-position {
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centrar-position_hijo {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    right: 50%;
+}
+
+.centrar-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centrar-grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centrar-table-cell {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centrartable-cell_hijo {
+    display: inline-block;
+}
+
+.img-logo-sm {
+    width: 50px;
+    border-radius: 10px;
+}
+
+.img-logo-xsm {
+    width: 55px;
+    border-radius: 10px;
+}
+
+.img-logo-xxsm {
+    width: 65px;
+    border-radius: 10px;
+}
+
+.img-logo-md {
+    width: 75;
+    border-radius: 10px;
+}
+
+.img-logo-xmd {
+    width: 85px;
+    border-radius: 10px;
+}
+
+.img-logo-xxmd {
+    width: 95px;
+    border-radius: 10px;
+}
+
+
+.img-logo-lg {
+    width: 105px;
+    border-radius: 10px;
+}
+
+.img-logo-xlg {
+    width: 115px;
+    border-radius: 10px;
+}
+
+.img-logo-xxlg {
+    width: 150px;
+    border-radius: 10px;
+}
+
+
+/*
+Estilos Secundarios ======================================
+==========================================================
+
+*/
+
+
+/* Header  */
+
+header{
+    background-color: #ffcd28 ;
+    border-bottom-right-radius: 100% 90%;
+}
+
+/* Header  */
+
+
+/* Main */
+
+/* Main */
+
+/* Footer */
+
+footer{
+    background-color: #ffcd28 ;
+    
+}
+
+/* Footer */
+
+
+ 
